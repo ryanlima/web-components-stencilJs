@@ -1,0 +1,45 @@
+/*
+  Global App CSS
+  ----------------------
+  Use this file for styles that should be applied to all components.
+  For example, "font-family" within the "body" selector is a CSS property
+  most apps will want applied to all components.
+
+  Any global CSS variables should also be applied here.
+*/
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+h3 {
+  background-color: blue;
+}
+
+form {
+  padding: 0 2rem;
+  display: flex;
+}
+
+button {
+  background-color: #00cc99;
+  color: white;
+  padding: .75rem 1.25rem;
+  border: none;
+  margin-left: 1rem;
+}
+
+input {
+  border: 1px solid #dcdcdc;
+  padding: .25rem .75rem;
+  font-size: 20px;
+  color: #595959;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0099ff;
+}
